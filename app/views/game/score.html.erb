@@ -1,12 +1,3 @@
-<h2>Now your result</h2>
-
-result = run_game(attempt, grid, start_time, end_time)
-
-<p>Your word: #{attempt}</p>
-<p>Time Taken to answer: <%= @time %></p>
-<p>Translation: <%= @translation %></p>
+<p>It took you <%= @time %> seconds to answer "<%= @answer %>" wich means "<%= @translation %>" in french</p>
+<h3><%= @message %>!</h3>
 <p>Your score: <%= @score %></p>
-<p>Message: <%= @message %></p>
-
-<%= @message %>
-<%= @score %>
